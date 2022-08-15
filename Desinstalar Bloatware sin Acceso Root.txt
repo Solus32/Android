@@ -1,0 +1,130 @@
+##############################################################
+### Desinstalar Bloatware OEM sin Necesidad de Acceso Root ###
+##############################################################
+
+Instalar la aplicación Application Inspector para ver en nombre del programa
+
+Para ver el Nombre del Programa:
+
+    Application Inspector -> App List Ordered by Name
+
+
+###############
+### SAMSUNG ###
+###############
+com.naranya.claroapps
+com.portal
+com.speedymovil.wire
+com.telcel.contenedor
+com.gameloft.android.gdc
+com.microsoft.office.powerpoint
+com.microsoft.office.word
+com.microsoft.office.excel
+com.microsoft.office.onenote
+com.microsoft.skydrive
+com.facebook.katana   --> Facebook
+com.facebook.orca     --> Facebook Messenger
+com.facebook.appmanager     --> Facebook App Manager
+tv.peel.app
+com.sec.android.onstartnotification
+flipboard.boxer.app
+flipboard.app
+com.samsung.android.app.watchmanager
+com.sec.android.app.sbrowser
+com.samsung.voiceserviceplatform
+com.rsupport.rs.activity.rsupport.aas2
+com.sec.android.app.samsungapps
+com.sec.android.app.music
+
+
+################
+### Swiftkey ###
+################
+com.touchtype.swiftkey
+
+
+############################
+### Kika Keyboard Huawei ###
+############################
+com.kikaoem.hw.qisiemoji.inputmethod
+
+
+###################################
+### Noticias y tiempo de Google ###
+###################################
+com.google.android.apps.genie.geniewidget   
+
+
+######################
+### Pixel Launcher ###
+######################
+com.google.android.apps.nexuslauncher
+com.google.android.nexusicons
+
+
+##################
+### Google Now ###
+##################
+com.google.android.launcher
+
+
+############################
+### Otras Apps de Google ###
+############################
+com.google.android.apps.plus    ---> Google+
+com.google.android.apps.books   ---> Play Libros
+com.google.android.apps.music   ---> Play Musica
+com.google.android.apps.videos  ---> Play Peliculas
+com.google.android.talk         ---> Hangouts
+com.google.android.youtube      ---> Youtube
+com.google.android.apps.youtube.music     ---> Youtube Music
+com.google.android.music        ---> Google Music
+com.google.android.videos	 ----> Play Peliculas
+com.android.chrome              ---> Google Chrome
+com.google.android.apps.magazines ---> Google Noticias
+com.google.ar.lens   --> Google Lens
+com.google.android.apps.subscriptions.red   ---> Google One
+com.google.android.apps.googleassistant    ---> Asistente
+com.google.android.calendar     ---> Calendario
+com.google.android.apps.nbu.files  ---> Files
+com.google.android.apps.tachyon ---> Duo
+
+##############
+### Telcel ###
+##############
+com.telcel.contenedor       ---> Telcel
+com.telcel.imk		     ---> Claro Música
+com.globalhitss.claro.pay   ---> Claro Pay
+com.gameloft.android.gdc    ---> Claro Juegos
+com.argus.tech.smartcar     ---> Smart Car
+com.hooplacall.conferencia.telcel  --> Conferencia Telcel
+com.rbt.android             ---> Contestone
+com.MiTelcelMXTopup         ---> Recarga Amigo
+ram.com		     ---> RAM Telcel
+com.grupoexpansion.ideasdeportes   ---> Ideas Deportes
+com.PushTelcel.Main	     ---> Push Telcel
+com.controlmovil.telcel     ---> Control Móvil Telcel
+com.lertek.gfc		     ---> Telcel GFC
+com.celltick.lockscreen     ---> Start
+com.recarga.saldo.telcel.app  ---> Recarga Saldo Telcel
+com.telcel.apps.unotv       ---> Uno TV
+no.homecontrol.telcel   --->  Casa Conectada
+
+----------------------------------------------------------------------------
+
+###################
+### En Terminal ###
+###################
+
+	adb shell pm list packages  ---> Sin entrar en adb shell
+
+  	adb shell pm list packages  --> Ver todas las apps instaladas
+
+	adb shell pm list packages | grep 'telcel'  --> Lista todas las apps de Telcel
+
+   	adb shell pm uninstall --user 0 com.naranya.claroapps
+   	
+O sin entrar en adb shell:
+
+	adb shell pm uninstall --user 0 com.google.android.music
+

@@ -1,0 +1,6 @@
+#############################################################
+### Hacer Capturas de Pantalla en Android Usando Terminal ###
+#############################################################
+
+
+adb shell screencap -p /sdcard/Capturas/1.png

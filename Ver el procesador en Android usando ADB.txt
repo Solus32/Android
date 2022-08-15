@@ -1,0 +1,11 @@
+###############################################
+### Ver el procesador en Android usando ADB ###
+###############################################	
+
+Para ver si el procesador es ARM o X86, si es de 32 bits o 64 bits
+	
+	adb shell getprop ro.product.cpu.abi
+
+Y dirá que tipo de procesador es eg.
+
+	armeabi-v7a --> 32 bits

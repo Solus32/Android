@@ -1,0 +1,45 @@
+##############################
+### Android Webview Huawei ###
+##############################
+
+1. sudo apt install aapt
+
+2. adb pull /system/framework/framework-res.apk
+
+3. aapt d xmltree framework-res.apk res/xml/config_webview_packages.xml
+
+  E: webviewproviders (line=17)
+  E: webviewprovider (line=18)
+    A: availableByDefault=(type 0x12)0xffffffff
+    A: description="Huawei WebView" (Raw: "Huawei WebView")
+    A: packageName="com.huawei.webview" (Raw: "com.huawei.webview")
+  E: webviewprovider (line=20)
+    A: availableByDefault=(type 0x12)0xffffffff
+    A: description="Chrome Stable" (Raw: "Chrome Stable")
+    A: packageName="com.android.chrome" (Raw: "com.android.chrome")
+  E: webviewprovider (line=22)
+    A: availableByDefault=(type 0x12)0xffffffff
+    A: description="Google WebView" (Raw: "Google WebView")
+    A: packageName="com.google.android.webview" (Raw: "com.google.android.webview")
+  E: webviewprovider (line=24)
+    A: availableByDefault=(type 0x12)0xffffffff
+    A: description="Android WebView" (Raw: "Android WebView")
+    A: packageName="com.android.webview" (Raw: "com.android.webview")
+    
+    
+Importante: Puedes Instalar Bromite SystemWebView solo si alguna de las salidas contiene packagename="org.bromite.webview"
+
+**** De lo contrario Instalaremos Bromite/Chromium SystemWebView ese contiene packageName="com.android.webview" ****
+
+4. adb shell "pm list packages | grep webview"
+
+5. adb shell dumpsys package com.android.webview | grep version
+
+---------------------------------------------
+##################
+### Con Google ###
+##################
+
+adb shell dumpsys package com.google.android.webview | grep version
+
+

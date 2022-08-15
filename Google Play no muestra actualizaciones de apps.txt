@@ -1,0 +1,19 @@
+######################################################################################
+### Google Play Store tarda mucho o no muestra las actualizaciones de aplicaciones ###
+######################################################################################
+
+
+1. Ajustes
+2. Aplicaciones
+3. Aplicaciones
+4. Buscar
+    
+    Google Play Store
+
+5. Dar click en Goolge Play Store
+6. Detener
+7. Memoria
+8. Borrar Caché
+
+
+Abrir de Nuevo Google Play Store y verificar actualizaciones

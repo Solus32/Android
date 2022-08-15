@@ -1,0 +1,20 @@
+#####################################################
+### Checar la Version de Android y SDK usando ADB ###
+#####################################################
+
+To get Android version you can use:
+
+	adb shell getprop ro.build.version.release 
+
+to get API level:
+
+	adb shell getprop ro.build.version.sdk 
+
+You can see all available properties with this command:
+
+	adb shell getprop
+	
+Para ver el Tipo de Procesador si es 32 bit o 64 bit
+
+	adb shell getprop ro.product.cpu.abi
+

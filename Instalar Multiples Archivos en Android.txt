@@ -1,0 +1,10 @@
+##############################################
+### Instalar Multiples Archivos en Android ###
+##############################################
+
+
+	adb install-multi-package -r
+
+eg.
+
+	adb install-multi-package -r 'com.instagram.android_203.0.0.29.118-320303537_minAPI23(arm64-v8a)(nodpi)_apkmirror.com.apk' 'com.shazam.android_11.41.0-210826-1104100_minAPI23(arm64-v8a,armeabi-v7a)(nodpi)_apkmirror.com.apk' 'us.zoom.videomeetings_5.7.7.2047-57007_minAPI21(arm64-v8a,armeabi-v7a,x86,x86_64)(nodpi)_apkmirror.com.apk'

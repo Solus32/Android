@@ -1,0 +1,202 @@
+###############
+### Firefox ###
+###############
+
+adb shell dumpsys package org.mozilla.firefox | grep version   ---> Firefox
+
+############################
+### microG Services Core ###
+############################
+
+adb shell dumpsys package com.google.android.gms | grep version   ---> microG GmsCore
+adb shell dumpsys package org.microg.nlp.backend.ichnaea | grep version   ---> MozillaNlpBackend 
+
+###############
+### Bromite ###
+###############
+
+adb shell dumpsys package org.bromite.bromite | grep version   ---> Bromite
+
+##############################
+### Bromite System WebView ###
+##############################
+
+adb shell dumpsys package org.bromite.webview | grep version   ---> Bromite WebView
+
+########################
+### Bromite Chromium ###
+########################
+
+adb shell dumpsys package org.bromite.chromium | grep version   ---> Bromite Chromium
+
+#######################################
+### Bromite Chromium System WebView ###
+#######################################
+
+adb shell dumpsys package com.android.webview | grep version   ---> Bromite Chromium WebView
+
+#############################
+### NewPipe SponsorBlock ####
+#############################
+
+adb shell dumpsys package org.polymorphicshade.newpipe | grep version   ---> NewPipe SponsorBlock
+
+##############
+### Google ###
+##############
+
+adb shell dumpsys package com.google.android.ims | grep version   ---> Carrier Services
+
+adb shell dumpsys package com.android.vending | grep version   ---> Google Play Store
+
+adb shell dumpsys package com.google.android.gms | grep version   ---> Google Play Services
+
+adb shell dumpsys package com.google.android.googlequicksearchbox | grep version  ---> Google App
+
+adb shell dumpsys package com.google.android.gm | grep version    ---> Gmail
+
+adb shell dumpsys package com.google.android.apps.photos | grep version    ---> Google Photos
+
+adb shell dumpsys package com.google.android.contacts | grep version    ---> Google Contacts
+
+adb shell dumpsys package com.google.android.dialer | grep version    ---> Phone by Google
+
+adb shell dumpsys package com.google.android.apps.messaging | grep version  ---> Messages
+
+adb shell dumpsys package com.google.android.youtube | grep version    ---> Youtube
+
+adb shell dumpsys package com.google.android.apps.maps | grep version   ---> Google Maps
+
+adb shell dumpsys package com.google.android.inputmethod.latin | grep version   ---> Gboard
+
+adb shell dumpsys package com.google.android.webview | grep version  ---> Android System WebView
+
+adb shell dumpsys package com.google.android.trichromelibrary | grep version  ---> Trichrome Library
+
+adb shell dumpsys package com.google.android.keep | grep version  ---> Google Keep
+
+############
+### Meta ###
+############
+
+adb shell dumpsys package com.facebook.katana | grep version    ---> Facebook
+
+adb shell dumpsys package com.facebook.orca | grep version    ---> Messenger
+
+adb shell dumpsys package com.instagram.android | grep version    ---> Instagram
+
+#################
+### Microsoft ###
+#################
+
+adb shell dumpsys package com.microsoft.office.outlook | grep version    ---> Outlook
+adb shell dumpsys package com.microsoft.office.word | grep version    ---> Word
+adb shell dumpsys package com.microsoft.office.excel | grep version    ---> Excel
+adb shell dumpsys package com.microsoft.office.powerpoint | grep version    ---> Powerpoint
+adb shell dumpsys package com.azure.authenticator | grep version    ---> Microsoft Authenticator
+
+###############
+### Netflix ###
+###############
+
+adb shell dumpsys package com.netflix.mediaclient | grep version
+
+###############
+### Disney+ ###
+###############
+
+adb shell dumpsys package com.disney.disneyplus | grep version
+
+##############
+### Amazon ###
+##############
+
+adb shell dumpsys package com.amazon.windowshop | grep version    ---> Amazon Compras Tablet
+adb shell dumpsys package com.amazon.mShop.android.shopping | grep version    ---> Amazon Compras Celular
+adb shell dumpsys package com.amazon.avod.thirdpartyclient | grep version    ---> Prime Video
+adb shell dumpsys package com.amazon.dee.app | grep version    ---> Amazon Alexa
+
+######################
+### Acrobat Reader ###
+######################
+
+adb shell dumpsys package com.adobe.reader | grep version
+
+############
+### Zoom ###
+############
+
+adb shell dumpsys package us.zoom.videomeetings | grep version
+
+######################
+### Solid Explorer ###
+######################
+
+adb shell dumpsys package pl.solidexplorer2 | grep version
+
+###########
+### VLC ###
+###########
+
+adb shell dumpsys package org.videolan.vlc | grep version    ---> VLC
+
+###############
+### Dropbox ###
+###############
+
+adb shell dumpsys package com.dropbox.android | grep version    ---> Dropbox
+
+################
+### Twitter ####
+################
+
+adb shell dumpsys package com.twitter.android | grep version    ---> Twitter
+
+##############
+### TikTok ###
+##############
+
+adb shell dumpsys package com.zhiliaoapp.musically | grep version    ---> TikTok
+
+##############
+### Shazam ###
+##############
+
+adb shell dumpsys package com.shazam.android | grep version
+
+###################
+### Crunchyroll ###
+###################
+
+adb shell dumpsys package com.crunchyroll.crunchyroid | grep version
+
+##################
+### AliExpress ###
+##################
+
+adb shell dumpsys package com.alibaba.aliexpresshd | grep version
+
+############
+### King ###
+############
+
+adb shell dumpsys package com.king.farmheroessaga | grep version   ---> Farm Heroes Saga
+
+adb shell dumpsys package com.king.farmheroessupersaga | grep version   ---> Farm Heroes Super Saga
+
+adb shell dumpsys package com.midasplayer.apps.bubblewitchsaga2 | grep version   ---> Bubble Witch 2 Saga
+
+adb shell dumpsys package com.king.bubblewitch3 | grep version    ---> Bubble Witch 3 Saga
+
+adb shell dumpsys package com.king.candycrushjellysaga | grep version    ---> Candy Crush Jelly Saga
+
+adb shell dumpsys package com.king.candycrushsodasaga | grep version    ---> Candy Crush Soda Saga
+
+adb shell dumpsys package com.king.candycrushsaga | grep version    ---> Candy Crush Saga
+
+#################
+### SuperCell ###
+#################
+
+adb shell dumpsys package com.supercell.clashofclans | grep version   ---> Clash of Clans
+adb shell dumpsys package com.supercell.boombeach | grep version   ---> Boom Beach

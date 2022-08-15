@@ -1,0 +1,35 @@
+###########################################
+### Para Instalar APK y Desinstalar APK ###
+###########################################
+
+
+################
+### Instalar ###
+################
+
+Para instalar .apk que descargamos previamente en la computadora o extrajimos de otro celular.
+
+1. Terminal
+
+2. Nos vamos a Donde esta la Descarga
+
+3. Activamos Depuracion por USB
+
+4. Habilitamos Fuentes Desconocidas/Origenes Desconocidos
+
+    cd ~/Descargas
+
+    adb install Tagmo.apk
+
+
+###################
+### Desinstalar ###
+###################
+
+1. Terminal
+
+2. Activamos Depuracion por USB
+
+    adb shell pm list packages
+
+    adb uninstall com.hiddenramblings.tagmo

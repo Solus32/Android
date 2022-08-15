@@ -1,0 +1,54 @@
+#######################################################
+### Para Extraer APK instaladas en Android sin Root ###
+#######################################################
+
+
+Para Extraer las .apk instaladas en Android sin necesidad de Root, usando Terminal y adb.
+
+
+##############################
+### Ver las APK en Android ###
+##############################
+
+
+    adb shell pm list packages
+
+    
+eg.
+
+package:com.samsung.android.allshare.service.fileshare
+package:com.avast.android.mobilesecurity
+package:org.videolan.vlc
+
+
+####################################################
+### Ver las APK con Ruta en donde esta Instalada ###
+####################################################
+
+Para Obtener la ruta donde se encuentra la apk eg. package:/data/app/com.whatsapp-1/base.apk=com.whatsapp
+
+
+    adb shell pm list packages -f -3
+
+Y si ya estamos dentro de adb shell
+
+    pm list packages -f -3
+  
+
+eg.
+
+package:/data/app/com.instagram.android-4Htgz9zP9ovppLJZBioZdg==/base.apk=com.instagram.android
+package:/data/app/pl.solidexplorer2-0BGyE_PP1uhWnAqeAfYLaw==/base.apk=pl.solidexplorer2
+package:/data/app/com.brave.browser-F2FAvswrTgLA3NVC_auAww==/base.apk=com.brave.browser
+
+
+###########################
+### Para Extraer la apk ###
+###########################
+
+package:/data/app/com.whatsapp-JmJtWdf-4uBw-8npP45B4A==/base.apk=com.whatsapp  --> Eliminar =com.whatsapp
+
+    adb pull /data/app/com.whatsapp-JmJtWdf-4uBw-8npP45B4A==/base.apk ~/Android/whatsapp.apk
+
+    adb pull /data/app/com.supercell.boombeach-hxFmorhHsoUiGDm8mjqLZA==/base.apk  ~/Android/boombeach.apk
+
